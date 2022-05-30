@@ -6,21 +6,23 @@ padding: 0;
 
 body{
 font-family: Abril Fatface, sans-serif;
-background: #000;
 
 }
+
 
 /* Header video */
 
 header{
     width: 100%;
+    height: 1000px;
     position: relative;
+    background: red;
 }
 
 
  video{
     width: 100%;
-    height: 600px;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,14 +38,21 @@ header{
 }
 
 /* Menu */
-
+.container-menu{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background: #000;
+}
 .menu {
     display: grid;
     position: absolute;
-    top: 70%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     grid-template: repeat(3, 110px) / 800px;
+    /* grid-gap: 20px; */
+    background: #000;
 
 }
 
@@ -100,3 +109,49 @@ header{
 }
 
 /* My Story Section */
+
+.story{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 7rem;
+    margin: 10px 0;
+}
+
+.container-story{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.profil-img{
+    width: 600px;
+    height: 600px;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    
+}
+
+.txt-story{
+    max-width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid green; */
+}
+
+.txt-story p{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 50px 0;
+    padding: 0 40px;
+    font-family: Bodoni Moda, "sans-serif";
+}
+
+
