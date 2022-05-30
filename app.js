@@ -16,7 +16,9 @@ new Typewriter(txtAnimBubble, {
 .pasteString('<br>')
 .typeString('I am Happy')
 .pasteString('<br>')
-.typeString('To see you !')
+.typeString('To see you.')
+.pasteString('<br>')
+.typeString('Enjoy !')
 .pauseFor(1000)
 .start();
 
@@ -38,7 +40,7 @@ menuItem.forEach(item => item.addEventListener('mouseenter',(e) => {
             y: Math.floor(Math.random() * 100 - 50),
             z: Math.floor(Math.random() * 100 - 50),
             rotation: Math.floor(Math.random() * 100 - 50),
-            opacity: 0.3,
+            opacity: 0.2,
             ease: Circ.easeOut,
         })
     }
