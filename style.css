@@ -32,7 +32,7 @@ header{
     top: 22%;
     left: 61%;
     transform: translate(-50%, -50%);
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
             /* Menu section */
@@ -115,7 +115,7 @@ header{
 
 h1{
     text-align: center;
-    font-size: 7rem;
+    font-size: 5rem;
 
 }
 
@@ -160,7 +160,7 @@ h1{
 
 h2{
     text-align: center;
-    font-size: 6rem;
+    font-size: 5rem;
     margin-bottom: 50px;
     color: #fff;
 }
@@ -174,13 +174,13 @@ h2{
 
 .description{
     font-family: Bodoni Moda, "sans-serif";
-    font-size: 2.5rem;
+    font-size: 2rem;
     display: flex;
     justify-content: center;
     color: #fff;
 }
 .work p{
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     padding: 50px 40px;
     font-family: Bodoni Moda, "sans-serif";
@@ -201,7 +201,7 @@ h2{
 
 h4{
     text-align: center;
-    font-size: 6rem;
+    font-size: 5rem;
 }
 
 .galerie{
@@ -215,7 +215,7 @@ h4{
     }
 
 .cards{
-    width:500px;
+    width:400px;
     height:200px;
     display: flex;
     justify-content: space-evenly;
@@ -252,7 +252,7 @@ h4{
     
 h5{
     text-align: center;
-    font-size: 6rem;
+    font-size: 5rem;
     color: #000;
 }
     
@@ -273,14 +273,14 @@ h5{
 }
 .image{
     position: relative;
-    width: 500px;
+    width: 400px;
 
 }
 
 .image-img{
     display: block;
     width: 100%;
-    height: 400px;
+    height: 300px;
     border-radius: 10px;
     background-position: center;
 }
@@ -311,7 +311,7 @@ h5{
 
 .project span{
     display: block;
-    font-size: 3rem;
+    font-size: 2rem;
     color: #fff;
     margin: 10px 0;
 }
@@ -330,24 +330,78 @@ h5{
 }
 
         /* Section Contact */
+
+
 .contact-me{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.container-contact{
-    width: 80%;
+.memoji{
+    width: 300px;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
+}
+
+.txt-end {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #000;
+    border-bottom: none;
+}
+
+.txt-end p{
+    font-size: 2rem;
+    font-family: Bodoni Moda, "sans-serif";
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.container-contact{
+    width: 80%;
+    border: 3px solid #000;
+    margin-bottom: 3%;
+}
+
+.icon{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
 }
 
 
+.icon img{
+    width: 100px;
+    height: 100px;
+}
+
+.icon p{
+    font-size: 2rem;
+    font-family: Bodoni Moda, "sans-serif";
+    margin-left: 2%;
+}
 
 
+        /* footer */
+
+footer{
+    width: 100%;
+    height: auto;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 10px;
+    font-size: 1rem;
+}
 
 
 
