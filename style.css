@@ -525,8 +525,8 @@ footer{
     @media screen and (min-width: 400px) and (max-width: 460px) {
         .txt-bubble p{
             position: absolute;
-            top: 14.5%;
-            left: 77.5%;
+            top: 15.2%;
+            left: 76.5%;
             transform: translate(-50%, -50%);
             font-size: 1em;
         }
